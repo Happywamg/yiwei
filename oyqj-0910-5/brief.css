@@ -1,0 +1,275 @@
+
+
+.framework-wrap {
+    background: #FBFBFB;
+    margin-top: 20px;
+    padding: 80px 0;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.framework-box {
+    width: 100%;
+    margin-top: 38px;
+    text-align: center;
+}
+
+.framework-box .compy {
+    text-align: center;
+    margin-top: 12px;
+    position: relative;
+    margin-bottom: 64px;
+}
+
+.framework-box .compy:after {
+    content: ' ';
+    height: 26px;
+    width: 2px;
+    background: #D8D9DC;
+    position: absolute;
+    bottom: -38px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.framework-box .compy img {
+    width: 100px;
+    height: 80px;
+}
+
+.framework-box .list-ul {
+    width: 100%;
+    position: relative;
+}
+
+.framework-box .list-ul:before {
+    content: ' ';
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    width: 83.86%;
+    top: -26px;
+    height: 2px;
+    background: #D8D9DC;
+    display: block;
+}
+
+.framework-box .list-ul .first {
+    margin-left: 0;
+}
+
+.framework-box .list-ul .li {
+    width: 16.25%;
+    background: #FFFFFF;
+    padding: 32px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    margin-left: 0.5%;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: background-color 0.2s linear;
+    -moz-transition: background-color 0.2s linear;
+    -o-transition: background-color 0.2s linear;
+    -webkit-transition: background-color 0.2s linear;
+    -ms-transition: background-color 1s linear;
+}
+
+.framework-box .list-ul .li:first-child {
+    margin-left: 0;
+}
+
+.framework-box .list-ul .li:before {
+    content: ' ';
+    height: 26px;
+    width: 2px;
+    background: #D8D9DC;
+    position: absolute;
+    top: -26px;
+}
+
+.framework-box .list-ul .li .label {
+    font-size: 30px;
+    color: #0052D9;
+    letter-spacing: 0;
+    font-family: 'TencentSansw7';
+}
+
+.framework-box .list-ul .li .val {
+    font-size: 14px;
+    color: #5F6464;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+
+.en-us .framework-box .list-ul .li .val span {
+    display: block;
+}
+
+.framework-box .list-ul .active-li {
+    background: #fff;
+}
+
+.framework-box .list-ul .active-li .san {
+    display: block;
+}
+
+.framework-box .li-mess-box {
+    width: 100%;
+    margin-top: 48px;
+    background: #fff;
+    position: relative;
+}
+
+.framework-box .li-mess-box .mess-text {
+    padding: 32px 42px;
+    display: none;
+    font-size: 14px;
+    color: #5F6464;
+    letter-spacing: 0;
+    line-height: 25px;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    -webkit-transition: opacity 0.2s linear;
+    -ms-transition: opacity 1s linear;
+}
+
+.framework-box .li-mess-box .active-mess {
+    opacity: 1;
+    display: block;
+}
+
+.framework-box .san {
+    width: 48px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    bottom: -49px;
+    display: none;
+}
+
+.team-box {
+    margin-top: 48px;
+}
+
+.team-box .ten_investor_icon_link span:after {
+    content: "";
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-image: url(../img/business/go-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 0px;
+    transition: ease all 0.3s;
+}
+
+.team-box .row {
+    width: 100%;
+    overflow: hidden;
+    word-spacing: normal;
+}
+
+.team-box .li {
+    width: 25%;
+    float: left;
+    height: 260px;
+    padding-left: 32px;
+    box-sizing: border-box;
+    position: relative;
+    background: #FBFBFB;
+    cursor: pointer;
+    -webkit-transition: background-color 0.2s linear;
+    -moz-transition: background-color 0.2s linear;
+    -o-transition: background-color 0.2s linear;
+    -webkit-transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
+}
+
+.team-box .li:hover {
+    background: #F2F3F5;
+}
+
+.team-box .li .pic {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+
+.team-box .title-l {
+    font-size: 24px;
+    line-height: 43px;
+    color: #2a2e2e;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    width: 100%;
+    float: left;
+}
+
+.culture-wrap {
+    background: #FBFBFB;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+.culture-box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.culture-box .t-box {
+    width: 100%;
+    overflow: hidden;
+    min-height: 610px;
+}
+
+.culture-box .t-box .pic {
+    float: right;
+    width: 60.2%;
+    min-height: 610px;
+    padding-left: 1%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.culture-box .t-box .mess-box {
+    width: 39.23%;
+    float: left;
+    margin-top: 56px;
+}
+
+.culture-box .t-box .pic img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+}
+
+
+
+
+.center-da{
+}
+.center-left{
+	width: 600px;
+	height: 300px;
+	float: left;
+}
+
+
+
+
